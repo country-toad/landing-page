@@ -8,15 +8,13 @@ body {
   flex-flow: column;
 }
 
-.header{
-  background-color: black;
-}
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #F9FAF8;
   background-color: #1F2937;
+  padding: 16px;
 }
 
 .navbar ul {
@@ -25,5 +23,10 @@ body {
   list-style-type: none;
   display: flex;
   flex-flow: row;
-  gap: 16px;
+  gap: 24px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 24px;
 }
