@@ -1,7 +1,20 @@
+* {
+  font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.body {
+  margin: 0;
+}
+
+.header{
+  background-color: black;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #F9FAF8;
+  background-color: #1F2937;
 }
 
 .navbar ul {
@@ -10,4 +23,5 @@
   list-style-type: none;
   display: flex;
   flex-flow: row;
+  gap: 16px;
 }
