@@ -2,8 +2,10 @@
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
 }
 
-.body {
+body {
   margin: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 .header{
