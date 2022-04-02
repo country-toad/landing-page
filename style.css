@@ -32,27 +32,29 @@ body {
 }
 
 img {
-  width: 400px;
+  width: 500px;
   height: 200px;
 }
 
-.title {
-  width: 400px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: flex-start;
-
-}
 .title-container {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  padding: 48px;
+  padding: 96px;
   background-color: #1F2937;
+  gap: 80px;
 }
 
+.title {
+  width: 470px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  gap: 8px;
+}
 .title-text {
   font-size: 48px;
+  font-weight: 800;
   color: #F9FAF8;
 }
 
