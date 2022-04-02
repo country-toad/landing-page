@@ -30,3 +30,21 @@ body {
   font-weight: 900;
   font-size: 24px;
 }
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+.title {
+  width: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+
+}
+.title-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
