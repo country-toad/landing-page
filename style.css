@@ -10,30 +10,32 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #F9FAF8;
   background-color: #1F2937;
   padding: 16px;
 }
 
-.navbar ul {
+.navbar .links {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-flow: row;
   gap: 24px;
+  margin-right: 420px;
 }
 
 .header {
   font-weight: 900;
   font-size: 24px;
+  margin-left: 420px;
 }
 
 img {
   width: 500px;
-  height: 200px;
+  height: 240px;
 }
 
 .title-container {
