@@ -47,4 +47,16 @@ img {
   display: flex;
   flex-flow: row;
   justify-content: center;
+  padding: 48px;
+  background-color: #1F2937;
+}
+
+.title-text {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #E5E7EB;
 }
