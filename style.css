@@ -64,3 +64,13 @@ img {
   font-size: 18px;
   color: #E5E7EB;
 }
+
+button.signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 32px;
+  border-radius: 10px;
+}
