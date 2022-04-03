@@ -152,6 +152,7 @@ button.signup {
   margin: 96px;
   border-radius: 10px; 
   align-items: center;
+  width: 1200px; /*Defining a width helps to make items non-responsive*/
 }
 
 .banner-text {
