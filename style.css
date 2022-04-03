@@ -147,4 +147,7 @@ button.signup {
 .banner {
   display: flex;
   justify-content: center;
+  align-self: center;
+  background-color: royalblue;
+  width: 900px;
 }
