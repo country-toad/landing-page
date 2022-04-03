@@ -1,7 +1,6 @@
 * {
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
   box-sizing: border-box;
-  /* border: 1px solid white;*/
 }
 
 body {
@@ -92,6 +91,7 @@ button.signup {
 .infoheader {
   font-size: 36px;
   font-weight: 800;
+  padding: 48px;
 }
 
 .infoheader,
@@ -99,13 +99,21 @@ button.signup {
 .subtexts {
   display: flex;
   justify-content: center;
+  gap: 48px;
 }
 
 .cards img,
 .subtexts div {
-  width: 160px;
+  width: 160px; 
+  
+}
+
+.cards img {
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
 
 .subtexts div {
   text-align: center;
+  margin-bottom: 96px;
 }
