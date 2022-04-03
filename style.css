@@ -144,3 +144,7 @@ button.signup {
   font-weight: bold;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+}
