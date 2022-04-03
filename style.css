@@ -94,22 +94,18 @@ button.signup {
   font-weight: 800;
 }
 
-.cards {
-  display: flex;
-}
-
-.cards img {
-  width: 180px;
-
-}
-
+.infoheader,
+.cards, 
 .subtexts {
   display: flex;
+  justify-content: center;
 }
 
-.subtexts div{
-  width: 180px;
-  display: flex;
-  flex-wrap: nowrap;
-  
+.cards img,
+.subtexts div {
+  width: 160px;
+}
+
+.subtexts div {
+  text-align: center;
 }
