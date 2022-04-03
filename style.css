@@ -6,7 +6,7 @@
 body {
   margin: 0;
   display: flex;
-  flex-flow: column;
+  flex-flow: column; 
 }
 
 .navbar .links,
@@ -151,6 +151,7 @@ button.signup {
   padding: 48px 180px;
   margin: 96px;
   border-radius: 10px; 
+  align-items: center;
 }
 
 .banner-text {
@@ -161,7 +162,6 @@ button.signup {
 
 .banner button {
   border: 1px solid white;
-  align-self: center;
   margin-left: 96px;
 }
 
