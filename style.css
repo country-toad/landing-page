@@ -131,5 +131,8 @@ button.signup {
 .quote {
   width: 784px;
   display: flex;
-
+  color: #1F2937;
+  font-style: italic;
+  font-size: 36px;
 }
+
