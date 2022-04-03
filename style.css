@@ -93,6 +93,7 @@ button.signup {
   font-size: 36px;
   font-weight: 800;
   padding: 48px;
+  color: #1F2937;
 }
 
 .infoheader,
@@ -120,5 +121,15 @@ button.signup {
 }
 
 .quote-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 120px;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  width: 784px;
+  display: flex;
 
 }
