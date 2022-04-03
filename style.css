@@ -1,5 +1,6 @@
 * {
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+  box-sizing: border-box;
   /* border: 1px solid white;*/
 }
 
@@ -93,8 +94,22 @@ button.signup {
   font-weight: 800;
 }
 
-.cards img{
+.cards {
+  display: flex;
+}
+
+.cards img {
   width: 180px;
-  border: 5px solid royalblue;
-  border-radius: 3px;
+
+}
+
+.subtexts {
+  display: flex;
+}
+
+.subtexts div{
+  width: 180px;
+  display: flex;
+  flex-wrap: nowrap;
+  
 }
