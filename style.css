@@ -151,3 +151,14 @@ button.signup {
   background-color: royalblue;
   width: 900px;
 }
+
+.banner-text {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner button {
+  border: 1px solid white;
+  align-self: center;
+}
