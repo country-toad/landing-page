@@ -1,7 +1,6 @@
 * {
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
   box-sizing: border-box;
-  border: 1px red solid;
 }
 
 body {
@@ -80,8 +79,8 @@ img {
 }
 
 button.signup {
-  background: royalblue;
-  border: 1px solid royalblue;
+  background: #3882F6;
+  border: 1px solid #3882F6;
   color: #F9FAF8;
   font-weight: bold;
   font-size: 18px;
@@ -148,7 +147,7 @@ button.signup {
 .banner {
   display: flex;
   align-self: center;
-  background-color: royalblue;
+  background-color: #3882F6;
   padding: 48px 180px;
   margin: 96px;
   border-radius: 10px; 
