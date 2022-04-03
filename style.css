@@ -1,6 +1,7 @@
 * {
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
   box-sizing: border-box;
+  border: 1px red solid;
 }
 
 body {
@@ -116,4 +117,8 @@ button.signup {
 .subtexts div {
   text-align: center;
   margin-bottom: 96px;
+}
+
+.quote-container {
+
 }
