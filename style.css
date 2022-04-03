@@ -87,6 +87,7 @@ button.signup {
   font-size: 18px;
   padding: 8px 32px;
   border-radius: 10px;
+  white-space: nowrap;
 }
 
 .infoheader {
@@ -146,10 +147,11 @@ button.signup {
 
 .banner {
   display: flex;
-  justify-content: center;
   align-self: center;
   background-color: royalblue;
-  width: 900px;
+  padding: 48px 180px;
+  margin: 96px;
+  border-radius: 10px; 
 }
 
 .banner-text {
@@ -161,4 +163,5 @@ button.signup {
 .banner button {
   border: 1px solid white;
   align-self: center;
+  margin-left: 96px;
 }
